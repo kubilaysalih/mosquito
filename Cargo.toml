@@ -1,0 +1,19 @@
+[package]
+authors = ["Kubilay Salih <kubilay@kubilay.io>"]
+categories = ["command-line-utilities", "network-programming", "web-programming::http-server", "development-tools::logging"]
+description = "Mosquito, a simple HTTP server that logs request parameters."
+edition = "2021"
+keywords = ["cli", "http-server", "logging", "development"]
+license = "MIT"
+name = "mosquito"
+readme = "README.md"
+repository = "https://github.com/kubilaysalih/mosquito"
+version = "0.1.1"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hyper = "0.13"
+tokio = { version = "0.2", features = ["full"] }
+clap = "2.33.3"
+serde_json = "1.0"
