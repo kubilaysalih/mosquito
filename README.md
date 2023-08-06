@@ -3,6 +3,10 @@
 
 Mosquito is a simple HTTP server that prints the parameters of incoming requests to the console in a beautiful manner.
 
+<p align="center">
+  <img src="https://imgur.com/RQfDoVQ.gif" />
+</p>
+
 ## Introduction
 Mosquito was born out of the necessity to ensure the accuracy of requests in various contexts, particularly within the realm of mobile development and gaming platforms. As applications grow more complex, the ability to monitor and validate the correctness of requests becomes paramount. Whether working with React Native or building analytics tools for gaming, Mosquito serves as a reliable tool to intercept and log HTTP requests. By visualizing these requests, developers can gain insights, diagnose issues, and confirm that everything is functioning as intended, enhancing the overall quality and reliability of the applications.
 
